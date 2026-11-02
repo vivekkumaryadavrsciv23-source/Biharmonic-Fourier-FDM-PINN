@@ -27,7 +27,7 @@ figures-old/
 *.eps
 *.pdf
 
-# ── LaTeX build artifacts ─────────────────────────────
+# ── LaTeX build artifacts & drafts ──────────────────────
 *.aux
 *.log
 *.out
@@ -37,6 +37,8 @@ figures-old/
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+manuscript_preparation/
+Cover letter/
 
 # ── OS junk ───────────────────────────────────────────
 .DS_Store

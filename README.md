@@ -60,7 +60,7 @@ All architectures use **hard boundary constraint enforcement** via squared-envel
 │   ├── 3_Fourier_Vanilla_PINN/
 │   └── 4_Fourier_FDM_PINN/
 │
-├── manuscript_preparation/
+├── scripts/
 │   ├── generate_all_figures.py    # Reproduce all paper figures
 │   └── generate_comparative_figures.py
 │
@@ -105,7 +105,7 @@ jupyter notebook "SSSS/1_Vanilla_PINN/1_sinusoidal_loading/Vanilla-PINN SINUSOID
 
 4. To reproduce paper figures after running all notebooks:
 ```bash
-cd manuscript_preparation
+cd scripts
 python generate_all_figures.py
 ```
 
