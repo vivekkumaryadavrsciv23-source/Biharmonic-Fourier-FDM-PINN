@@ -154,5 +154,5 @@ If you use this code, please cite:
 
 ## 📬 Contact
 
-**Vivek Kumar Yadav** — iitbhustructure@gmail.com  
+**Vivek Kumar Yadav** — vivekkumaryadav.rs.civ23@iitbhu.ac.in  
 Department of Civil Engineering, IIT (BHU), Varanasi — 221005, India
