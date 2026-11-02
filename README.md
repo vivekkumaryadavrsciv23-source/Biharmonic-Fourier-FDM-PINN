@@ -43,22 +43,27 @@ All architectures use **hard boundary constraint enforcement** via squared-envel
 ## 📁 Repository Structure
 
 ```
-├── SSSS/                          # Simply Supported (all edges)
-│   ├── 1_Vanilla_PINN/
-│   │   ├── 1_sinusoidal_loading/
-│   │   ├── 2_uniform_loading/
-│   │   ├── 3_hydrostatic_loading/
-│   │   ├── 4_triangular_loading/
-│   │   └── 5_patch_loading/
-│   ├── 2_FDM_PINN/
-│   ├── 3_Fourier_Vanilla_PINN/
-│   └── 4_Fourier_FDM_PINN/
+├── PINNs for Plates (Simply supported all edges)/
+│   ├── 1 Venilla PINN/
+│   │   ├── 1 sinusoidal loading/
+│   │   ├── 2 uniform loading/
+│   │   ├── 3 hydrostatic loading/
+│   │   ├── 4 triangular prism loading/
+│   │   └── 5 patch loading/
+│   ├── 2 FDM PINN/
+│   ├── 3 Fourier Vanilla PINN/
+│   └── 4 Fourier FDM PINN/
 │
-├── FFFF/                          # Fully Clamped (all edges)
-│   ├── 1_Vanilla_PINN/
-│   ├── 2_FDM_PINN/
-│   ├── 3_Fourier_Vanilla_PINN/
-│   └── 4_Fourier_FDM_PINN/
+├── PINNs for Plates (Fixed supported all edges)/
+│   ├── Architecture 1 Vanilla PINN/
+│   │   ├── 1 sinusoidal loading/
+│   │   ├── 2 uniform loading/
+│   │   ├── 3 hydrostatic loading/
+│   │   ├── 4 triangular loading/
+│   │   └── 5 partially loading/
+│   ├── Architecture 2 FDM PINN/
+│   ├── Architecture 3 Fourier Vanilla PINN/
+│   └── Architecture 4 Fourier FDM PINN/
 │
 ├── scripts/
 │   ├── generate_all_figures.py    # Reproduce all paper figures
@@ -90,20 +95,41 @@ pip install torch numpy matplotlib scipy pandas jupyter
 
 ## 🚀 How to Run
 
+### 1. Interactive Execution (Jupyter)
+
 1. Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/Efficient-PINN-Kirchhoff-Plate-Bending.git
+git clone https://github.com/vivekkumaryadavrsciv23-source/Efficient-PINN-Kirchhoff-Plate-Bending.git
 cd Efficient-PINN-Kirchhoff-Plate-Bending
 ```
 
-2. Open any notebook, for example:
+2. Open any benchmark notebook, for example:
 ```bash
-jupyter notebook "SSSS/1_Vanilla_PINN/1_sinusoidal_loading/Vanilla-PINN SINUSOIDAL loading.ipynb"
+jupyter notebook "PINNs for Plates (Simply supported all edges)/1 Venilla PINN/1 sinusoidal loading/Vanilla-PINN SINUSOIDAL loading.ipynb"
 ```
 
-3. Run all cells (`Kernel → Restart & Run All`)
+3. Run all cells (`Kernel → Restart & Run All`).
 
-4. To reproduce paper figures after running all notebooks:
+---
+
+### 2. Command-Line Execution (Headless / Terminal / Server)
+
+If you prefer running from the command line or on a remote GPU cluster without a browser, you can convert and run any notebook directly as a Python script:
+
+```bash
+# Convert notebook to a standard Python (.py) script:
+jupyter nbconvert --to script "path/to/notebook.ipynb"
+python "path/to/notebook.py"
+
+# Or execute headlessly in terminal:
+jupyter nbconvert --to notebook --execute "path/to/notebook.ipynb"
+```
+
+---
+
+### 3. Reproducing Manuscript Figures
+
+To reproduce all comparative figures from the benchmark results:
 ```bash
 cd scripts
 python generate_all_figures.py
