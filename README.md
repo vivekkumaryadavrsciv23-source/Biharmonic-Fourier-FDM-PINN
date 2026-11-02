@@ -139,11 +139,10 @@ python generate_all_figures.py
 If you use this code, please cite:
 
 ```bibtex
-@article{yadav2026pinn,
+@article{yadav_pinn_plate,
   title   = {Comparative Assessment of Physics-Informed Neural Network Architectures 
              with Hard Boundary Constraints for Kirchhoff Plate Bending},
-  author  = {Yadav, Vivek Kumar and Yadav, Kshitij Kumar and Kumar, Rajesh},
-  note    = {Manuscript under review}
+  author  = {Yadav, Vivek Kumar and Yadav, Kshitij Kumar and Kumar, Rajesh}
 }
 ```
 
