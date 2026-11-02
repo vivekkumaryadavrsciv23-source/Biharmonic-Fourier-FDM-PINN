@@ -37,8 +37,8 @@ plt.rcParams.update({
 SAVEKW = {'dpi': 300, 'bbox_inches': 'tight', 'pad_inches': 0.12}
 
 BASE = r"d:\# VIVEK\Presentation\research paper\Paper 1 version 2"
-SSSS_DIR = os.path.join(BASE, "PINNs for Plates (Revised for Research Paper)(Simply supported all edges)")
-FFFF_DIR = os.path.join(BASE, "PINNs for Plates (Revised for Research Paper)(Fixed supported all edges)")
+SSSS_DIR = os.path.join(BASE, "PINNs for Plates (Simply supported all edges)")
+FFFF_DIR = os.path.join(BASE, "PINNs for Plates (Fixed supported all edges)")
 OUT_BASE = os.path.join(BASE, "manuscript_preparation", "figures")
 
 # Architecture info
