@@ -3,8 +3,7 @@
 > **Associated Paper:**  
 > *"Comparative Assessment of Physics-Informed Neural Network Architectures with Hard Boundary Constraints for Kirchhoff Plate Bending: Vanilla, FDM-Hybrid, Fourier-Enhanced, and Fourier-FDM Formulations"*  
 > Vivek Kumar Yadav, Kshitij Kumar Yadav, Rajesh Kumar  
-> Department of Civil Engineering, Indian Institute of Technology (BHU), Varanasi  
-> *Submitted to: Computer Methods in Applied Mechanics and Engineering (CMAME), Elsevier*
+> Department of Civil Engineering, Indian Institute of Technology (BHU), Varanasi
 
 ---
 
@@ -144,9 +143,7 @@ If you use this code, please cite:
   title   = {Comparative Assessment of Physics-Informed Neural Network Architectures 
              with Hard Boundary Constraints for Kirchhoff Plate Bending},
   author  = {Yadav, Vivek Kumar and Yadav, Kshitij Kumar and Kumar, Rajesh},
-  journal = {Computer Methods in Applied Mechanics and Engineering},
-  year    = {2026},
-  note    = {Under Review}
+  note    = {Manuscript under review}
 }
 ```
 
