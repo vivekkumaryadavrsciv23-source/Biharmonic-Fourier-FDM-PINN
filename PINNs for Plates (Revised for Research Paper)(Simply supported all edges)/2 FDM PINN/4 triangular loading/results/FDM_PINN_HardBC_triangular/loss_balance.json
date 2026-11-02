@@ -1,0 +1,11 @@
+{
+  "model": "FDM_PINN_HardBC",
+  "loading_case": "triangular",
+  "moment_loss_weight": 0.2,
+  "final_pde_loss": 4.417839144320837e-05,
+  "final_moment_loss_raw": 5.285405217881632e-07,
+  "final_moment_loss_weighted": 1.0570810435763265e-07,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.9976129557688287,
+  "moment_fraction_of_total": 0.0023870442311712922
+}

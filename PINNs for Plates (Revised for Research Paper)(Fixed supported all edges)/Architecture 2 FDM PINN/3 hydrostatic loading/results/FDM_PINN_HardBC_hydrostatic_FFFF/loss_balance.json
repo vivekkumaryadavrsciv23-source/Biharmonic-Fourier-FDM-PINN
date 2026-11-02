@@ -1,0 +1,10 @@
+{
+  "model": "FDM_PINN_HardBC",
+  "loading_case": "hydrostatic",
+  "bc_case": "FFFF",
+  "final_pde_loss": 0.000540445120532095,
+  "final_hard_bc_val_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 2.0602530758581394e-13,
+  "final_edge_moment_diagnostic": 0.0006109478747055115,
+  "note": "Total training loss is PDE residual only for the clamped (FFFF) case -- both w=0 and dw/dn=0 are hard-constrained by the squared envelope, so no soft BC/moment term is needed or appropriate here."
+}

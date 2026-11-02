@@ -1,0 +1,20 @@
+{
+  "model": "FDM_PINN",
+  "loading_case": "partial_patch",
+  "bc_type": "FFFF",
+  "derivative_method": "finite_difference",
+  "device": "cuda",
+  "adam_epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "lbfgs_outer_steps": 4,
+  "lbfgs_max_iter_per_step": 500,
+  "lbfgs_closure_calls": 2115,
+  "mean_time_per_adam_epoch_s": 0.00506679488698331,
+  "median_time_per_adam_epoch_s": 0.005019500153139234,
+  "adam_phase_time_s": 86.14684140007012,
+  "lbfgs_phase_time_s": 34.81992679997347,
+  "total_training_time_s": 120.96676820004359,
+  "peak_gpu_memory_mb": 35.96288,
+  "n_trainable_params": 8578
+}

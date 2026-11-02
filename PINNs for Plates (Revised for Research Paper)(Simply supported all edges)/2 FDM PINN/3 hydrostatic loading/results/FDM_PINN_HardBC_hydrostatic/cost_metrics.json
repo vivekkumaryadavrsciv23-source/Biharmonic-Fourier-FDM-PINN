@@ -1,0 +1,15 @@
+{
+  "model": "FDM_PINN_HardBC",
+  "loading_case": "hydrostatic",
+  "device": "cuda",
+  "epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "mean_time_per_epoch_s": 0.010932739646721165,
+  "median_time_per_epoch_s": 0.010861150018172339,
+  "total_training_time_s": 176.65227109997068,
+  "peak_gpu_memory_mb": 30.086144,
+  "n_trainable_params": 8578,
+  "ghost_points_per_side": 3,
+  "forward_pass_points": 3249
+}

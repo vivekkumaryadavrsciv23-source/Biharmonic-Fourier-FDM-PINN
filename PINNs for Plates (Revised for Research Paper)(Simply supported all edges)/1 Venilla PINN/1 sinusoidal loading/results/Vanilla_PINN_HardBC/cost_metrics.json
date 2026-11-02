@@ -1,0 +1,16 @@
+{
+  "model": "Vanilla_PINN_HardBC",
+  "loading_case": "sinusoidal",
+  "embedding_type": "none",
+  "grad_clip_norm": 1.0,
+  "input_feature_dim": 2,
+  "device": "cuda",
+  "epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "mean_time_per_epoch_s": 0.17108761504677436,
+  "median_time_per_epoch_s": 0.17026704997988418,
+  "total_training_time_s": 2583.1170506000053,
+  "peak_gpu_memory_mb": 1110.404608,
+  "n_trainable_params": 8578
+}

@@ -1,0 +1,16 @@
+{
+  "model": "FDM_PINN_FFFF_Clamped_HardBC_partial_patch",
+  "loading_case": "partial_patch",
+  "bc_case": "FFFF",
+  "device": "cuda",
+  "epochs_run": 45000,
+  "epochs_to_early_stop": 45000,
+  "epochs_to_convergence": 45000,
+  "mean_time_per_epoch_s": 0.011315682197385468,
+  "median_time_per_epoch_s": 0.011181049922015518,
+  "total_training_time_s": 559.0728716999292,
+  "peak_gpu_memory_mb": 29.947392,
+  "n_trainable_params": 8578,
+  "ghost_points_per_side": 3,
+  "forward_pass_points": 3249
+}

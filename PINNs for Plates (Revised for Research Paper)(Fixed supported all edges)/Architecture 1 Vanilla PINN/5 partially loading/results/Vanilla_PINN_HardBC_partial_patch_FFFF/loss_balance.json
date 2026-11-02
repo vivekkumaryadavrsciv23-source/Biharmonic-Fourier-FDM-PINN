@@ -1,0 +1,9 @@
+{
+  "model": "Vanilla_PINN_HardBC",
+  "loading_case": "partial_patch",
+  "bc_case": "FFFF",
+  "final_pde_loss": 0.016756093795225874,
+  "note": "FFFF hard-encodes both essential BCs (w=0 and dw/dn=0), so there is no remaining soft/natural BC term -- total loss is pde_loss only. The two fields below are diagnostics only.",
+  "final_hard_bc_value_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 0.0
+}

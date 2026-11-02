@@ -1,0 +1,29 @@
+{
+  "model": "DH_PINN_Modal_HardBC_Triangular_FFFF",
+  "loading_case": "triangular",
+  "bc_type": "FFFF",
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices_x": [
+    1,
+    3,
+    5
+  ],
+  "harmonic_indices_y": [
+    1,
+    3,
+    5
+  ],
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "input_feature_dim": 23,
+  "device": "cuda",
+  "epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "mean_time_per_epoch_s": 0.3354457652135752,
+  "median_time_per_epoch_s": 0.221863399958238,
+  "total_training_time_s": 5038.806332700187,
+  "peak_gpu_memory_mb": 1196.617728,
+  "n_trainable_params": 9922
+}

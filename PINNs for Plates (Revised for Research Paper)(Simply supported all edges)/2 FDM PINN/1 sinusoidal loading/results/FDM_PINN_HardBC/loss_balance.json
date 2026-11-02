@@ -1,0 +1,9 @@
+{
+  "model": "FDM_PINN_HardBC",
+  "loading_case": "sinusoidal",
+  "final_pde_loss": 7.185041366169654e-08,
+  "final_moment_loss": 1.8768610279654706e-08,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.7928844357030178,
+  "moment_fraction_of_total": 0.20711556429698222
+}

@@ -1,0 +1,14 @@
+{
+  "model": "DH_PINN_Modal_HardBC_Hydrostatic",
+  "loading_case": "hydrostatic",
+  "embedding_type": "deterministic_harmonic_modal",
+  "n_harmonics": 6,
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "final_pde_loss": 2.599723099807948e-06,
+  "final_moment_loss": 9.00374660147292e-06,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.22404704512831827,
+  "moment_fraction_of_total": 0.7759529548716817
+}

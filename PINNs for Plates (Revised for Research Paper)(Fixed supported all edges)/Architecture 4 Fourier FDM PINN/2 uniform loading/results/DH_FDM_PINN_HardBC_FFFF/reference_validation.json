@@ -1,0 +1,9 @@
+{
+  "description": "Verified 2nd-order-accurate direct FD biharmonic solve, NOT a closed-form solution.",
+  "load_case_validated": "uniform",
+  "center_w_nd_at_51x51": 0.0012696994417718394,
+  "center_w_nd_at_101x101_finer_grid": 0.0012664160604046169,
+  "pct_diff_51_vs_101_grid": 0.2592656134014494,
+  "linear_solve_relative_residual_51x51": 2.059937832538533e-11,
+  "literature_comparison_note": "center_w_nd_at_51x51 is the nondimensional center-deflection coefficient (q0_nd=D_nd=a_nd=b_nd=1, so it equals w_max*D/(q*a^4)). Compare to the commonly tabulated ~0.00126 clamped-square-plate coefficient (Timoshenko & Woinowsky-Krieger) -- recalled from memory, not independently re-verified here; check the primary source if you need certainty on that digit."
+}

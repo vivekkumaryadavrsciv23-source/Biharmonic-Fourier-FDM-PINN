@@ -1,0 +1,19 @@
+{
+  "model": "DH_PINN_Modal_HardBC_Hydrostatic",
+  "loading_case": "hydrostatic",
+  "embedding_type": "deterministic_harmonic_modal",
+  "n_harmonics": 6,
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "input_feature_dim": 62,
+  "device": "cuda",
+  "epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "mean_time_per_epoch_s": 0.399791804173744,
+  "median_time_per_epoch_s": 0.4660070500103757,
+  "total_training_time_s": 6001.3636469000485,
+  "peak_gpu_memory_mb": 1220.88192,
+  "n_trainable_params": 12418
+}

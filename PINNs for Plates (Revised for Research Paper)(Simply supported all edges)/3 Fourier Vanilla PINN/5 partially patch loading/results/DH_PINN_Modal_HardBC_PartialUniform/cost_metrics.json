@@ -1,0 +1,25 @@
+{
+  "model": "DH_PINN_Modal_HardBC_PartialUniform",
+  "loading_case": "partial_uniform",
+  "patch_u_frac": 0.4,
+  "patch_v_frac": 0.4,
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices": [
+    1,
+    3,
+    5
+  ],
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "input_feature_dim": 23,
+  "device": "cuda",
+  "epochs_run": 45000,
+  "epochs_to_early_stop": 45000,
+  "epochs_to_convergence": 45000,
+  "mean_time_per_epoch_s": 0.2909091049998843,
+  "median_time_per_epoch_s": 0.20814195001730695,
+  "total_training_time_s": 13101.673800299992,
+  "peak_gpu_memory_mb": 1181.50912,
+  "n_trainable_params": 9922
+}

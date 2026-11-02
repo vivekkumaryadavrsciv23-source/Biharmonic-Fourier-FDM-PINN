@@ -1,0 +1,36 @@
+{
+  "model": "DH_FDM_PINN_Modal_HardBC_Patch_FFFF",
+  "loading_case": "patch",
+  "bc_type": "FFFF",
+  "residual_backbone": "fdm",
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices_x": [
+    1,
+    3,
+    5
+  ],
+  "harmonic_indices_y": [
+    1,
+    3,
+    5
+  ],
+  "use_product_terms": true,
+  "k_modes_benchmark": 10,
+  "patch_u_nd": 0.4,
+  "patch_v_nd": 0.4,
+  "center_deflection_pred_m": 3.452951380328794e-05,
+  "center_deflection_anal_m": 3.453461956895105e-05,
+  "center_abs_error_m": 5.1057656631114034e-09,
+  "center_pct_error": 0.014784485038027841,
+  "w_max_abs_error_m": 6.246546204107985e-07,
+  "w_rms_error_m": 2.3585707014869283e-07,
+  "w_L2_error_m": 2.3585707014869283e-07,
+  "w_relative_L2_error": 0.017936739226042647,
+  "Mx_max_abs_error_Nm": 0.9020779528478684,
+  "Mx_rms_error_Nm": 0.24478925933245424,
+  "My_max_abs_error_Nm": 0.9003920283915221,
+  "My_rms_error_Nm": 0.24456627028069874,
+  "Mxy_max_abs_error_Nm": 0.16078863811429933,
+  "Mxy_rms_error_Nm": 0.07609019136536495,
+  "boundary_w_max_abs_value_m": 0.0
+}

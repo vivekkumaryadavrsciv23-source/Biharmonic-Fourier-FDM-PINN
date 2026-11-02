@@ -1,0 +1,39 @@
+{
+  "model": "DH_PINN_Modal_HardBC_FFFF_Sinusoidal",
+  "loading_case": "sinusoidal",
+  "bc_case": "FFFF",
+  "embedding_type": "deterministic_harmonic_modal_full",
+  "harmonic_indices": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "use_product_terms": true,
+  "center_deflection_pred_m": 4.986703755557514e-05,
+  "center_deflection_anal_m": 5.002864592299491e-05,
+  "center_abs_error_m": 1.6160836741976902e-07,
+  "center_pct_error": 0.32303166403608014,
+  "peak_deflection_anal_m": 5.002864592299491e-05,
+  "peak_deflection_anal_xy_nd": [
+    0.5,
+    0.5
+  ],
+  "peak_deflection_pred_m": 4.986703755557514e-05,
+  "peak_deflection_pred_xy_nd": [
+    0.5,
+    0.5
+  ],
+  "w_max_abs_error_m": 1.6160836741976902e-07,
+  "w_rms_error_m": 8.542200719825825e-08,
+  "w_L2_error_m": 8.542200719825825e-08,
+  "w_relative_L2_error": 0.004213502894565595,
+  "Mx_max_abs_error_Nm": 18.507619678662586,
+  "Mx_rms_error_Nm": 2.5906041501078745,
+  "My_max_abs_error_Nm": 18.508189947404983,
+  "My_rms_error_Nm": 2.590639618373978,
+  "Mxy_max_abs_error_Nm": 0.7508695978219282,
+  "Mxy_rms_error_Nm": 0.14413298024288587,
+  "boundary_w_max_abs_value_m": 0.0
+}

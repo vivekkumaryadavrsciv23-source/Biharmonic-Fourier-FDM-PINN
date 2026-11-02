@@ -1,0 +1,28 @@
+{
+  "model": "DH_PINN_Modal_HardBC_PartialUniform",
+  "loading_case": "partial_uniform",
+  "patch_u_frac": 0.4,
+  "patch_v_frac": 0.4,
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices": [
+    1,
+    3,
+    5
+  ],
+  "use_product_terms": true,
+  "center_deflection_pred_m": 8.227397885754765e-05,
+  "center_deflection_anal_m": 8.206832433256397e-05,
+  "center_abs_error_m": 2.056545249836799e-07,
+  "center_pct_error": 0.25058940420217407,
+  "w_max_abs_error_m": 1.095150051956126e-06,
+  "w_rms_error_m": 4.045509988098129e-07,
+  "w_L2_error_m": 4.045509988098129e-07,
+  "w_relative_L2_error": 0.01051012226089319,
+  "Mx_max_abs_error_Nm": 0.8217640991152511,
+  "Mx_rms_error_Nm": 0.28013014440281925,
+  "My_max_abs_error_Nm": 0.8448727674244942,
+  "My_rms_error_Nm": 0.2778286201218052,
+  "Mxy_max_abs_error_Nm": 0.4530980088737806,
+  "Mxy_rms_error_Nm": 0.11330235551423874,
+  "boundary_w_max_abs_value_m": 0.0
+}

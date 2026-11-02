@@ -1,0 +1,18 @@
+{
+  "model": "DH_FDM_PINN_Modal_HardBC_Uniform_FFFF",
+  "loading_case": "uniform",
+  "bc_case": "FFFF",
+  "embedding_type": "deterministic_harmonic_modal",
+  "derivative_method": "FDM",
+  "fd_stencil": "central_2nd_order_13pt_biharmonic",
+  "fd_dx": 0.02,
+  "fd_dy": 0.02,
+  "n_harmonics": 4,
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "final_pde_loss": 9.62234601224471e-06,
+  "final_hard_bc_w_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 7.968751515655661e-10,
+  "note": "total_loss == pde_loss for FFFF: both w=0 and dw/dn=0 are hard-enforced by the squared envelope, so there is no soft/natural BC term to balance."
+}

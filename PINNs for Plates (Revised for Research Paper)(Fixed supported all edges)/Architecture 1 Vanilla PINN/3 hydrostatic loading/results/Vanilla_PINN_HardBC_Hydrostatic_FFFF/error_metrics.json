@@ -1,0 +1,23 @@
+{
+  "model": "Vanilla_PINN_HardBC_Hydrostatic_FFFF",
+  "loading_case": "hydrostatic",
+  "bc_case": "FFFF",
+  "ritz_m_terms": 16,
+  "ritz_n_terms": 16,
+  "center_deflection_pred_m": 3.4686022791558056e-05,
+  "center_deflection_anal_m": 3.454030943643661e-05,
+  "center_abs_error_m": 1.457133551214463e-07,
+  "center_pct_error": 0.42186464886655917,
+  "w_max_abs_error_m": 3.5653909021593837e-06,
+  "w_rms_error_m": 1.6090662260098293e-06,
+  "w_L2_error_m": 1.6090662260098293e-06,
+  "w_relative_L2_error": 0.11126288624547559,
+  "Mx_max_abs_error_Nm": 9.090350482142785,
+  "Mx_rms_error_Nm": 2.154236419549365,
+  "My_max_abs_error_Nm": 5.472673622088417,
+  "My_rms_error_Nm": 1.2387841492531055,
+  "Mxy_max_abs_error_Nm": 1.040487161949927,
+  "Mxy_rms_error_Nm": 0.44681067520190865,
+  "boundary_w_max_abs_value_m": 0.0,
+  "boundary_slope_max_abs_value_nd": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "model": "Fourier_Vanilla_PINN_HardBC",
+  "loading_case": "sinusoidal",
+  "center_deflection_pred_m": 0.00014237612270939133,
+  "center_deflection_anal_m": 0.00014013065777644117,
+  "center_abs_error_m": 2.245464932950161e-06,
+  "center_pct_error": 1.6024080444498348,
+  "w_max_abs_error_m": 2.274197614644401e-06,
+  "w_rms_error_m": 1.2299409744437483e-06,
+  "w_L2_error_m": 1.2299409744437483e-06,
+  "w_relative_L2_error": 0.017905286592375322,
+  "Mx_max_abs_error_Nm": 1.1380745608397151,
+  "Mx_rms_error_Nm": 0.4101822348339182,
+  "My_max_abs_error_Nm": 0.6970041595365734,
+  "My_rms_error_Nm": 0.3445105912474751,
+  "Mxy_max_abs_error_Nm": 0.7882498160510565,
+  "Mxy_rms_error_Nm": 0.17726963072090565,
+  "boundary_w_max_abs_value_m": 0.0
+}

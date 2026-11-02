@@ -1,0 +1,23 @@
+{
+  "model": "Vanilla_PINN_FFFF_Clamped_HardBC_triangular",
+  "loading_case": "triangular",
+  "bc_case": "FFFF",
+  "embedding_type": "none",
+  "reference_type": "finite_difference_biharmonic_solve",
+  "reference_grid": "51x51",
+  "center_deflection_pred_m": 4.867777024146285e-05,
+  "center_deflection_ref_m": 4.8859603132508856e-05,
+  "center_abs_error_m": 1.8183289104600542e-07,
+  "center_pct_error": 0.3721538436423002,
+  "w_max_abs_error_m": 1.818980111137976e-07,
+  "w_rms_error_m": 9.85223278223825e-08,
+  "w_L2_error_m": 9.85223278223825e-08,
+  "w_relative_L2_error": 0.004928210950482985,
+  "Mx_max_abs_error_Nm": 16.933700663081492,
+  "Mx_rms_error_Nm": 2.4895760447545388,
+  "My_max_abs_error_Nm": 22.199917000710954,
+  "My_rms_error_Nm": 3.005598720380273,
+  "Mxy_max_abs_error_Nm": 0.8368923789769878,
+  "Mxy_rms_error_Nm": 0.14988399392476945,
+  "boundary_w_max_abs_value_m": 0.0
+}

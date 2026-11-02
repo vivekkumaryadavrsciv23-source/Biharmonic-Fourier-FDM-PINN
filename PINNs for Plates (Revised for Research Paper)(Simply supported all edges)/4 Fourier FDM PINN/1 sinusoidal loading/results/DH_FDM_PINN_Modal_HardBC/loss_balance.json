@@ -1,0 +1,18 @@
+{
+  "model": "DH_FDM_PINN_Modal_HardBC",
+  "loading_case": "sinusoidal",
+  "embedding_type": "deterministic_harmonic_modal",
+  "derivative_method": "FDM",
+  "fd_stencil": "central_2nd_order_13pt_biharmonic",
+  "fd_dx": 0.02,
+  "fd_dy": 0.02,
+  "n_harmonics": 2,
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "final_pde_loss": 4.6102522779789085e-06,
+  "final_moment_loss": 3.666799274938283e-08,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.9921091840158394,
+  "moment_fraction_of_total": 0.007890815984160627
+}

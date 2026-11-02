@@ -1,0 +1,9 @@
+{
+  "model": "FDM_PINN_HardBC",
+  "loading_case": "partial_patch",
+  "final_pde_loss": 0.009641669038905813,
+  "final_moment_loss": 2.15182626983872e-06,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.9997768699460596,
+  "moment_fraction_of_total": 0.00022313005394045414
+}

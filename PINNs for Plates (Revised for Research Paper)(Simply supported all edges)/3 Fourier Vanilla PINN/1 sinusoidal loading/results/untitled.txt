@@ -1,0 +1,6 @@
+
+
+Use the DH_PINN_Modal_Haed_BC    for the result compariosion 
+
+because that folder contain the correct file 
+

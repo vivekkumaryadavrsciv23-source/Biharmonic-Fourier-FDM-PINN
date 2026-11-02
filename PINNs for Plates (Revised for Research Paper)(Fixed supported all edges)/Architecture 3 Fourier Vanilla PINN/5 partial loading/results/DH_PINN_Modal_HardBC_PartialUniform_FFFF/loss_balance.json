@@ -1,0 +1,21 @@
+{
+  "model": "DH_PINN_Modal_HardBC_PartialUniform_FFFF",
+  "loading_case": "partial_uniform",
+  "bc_case": "FFFF",
+  "patch_u_frac": 0.4,
+  "patch_v_frac": 0.4,
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices": [
+    1,
+    3,
+    5
+  ],
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "n_collocation_points_in_patch": 400,
+  "final_pde_loss": 6.022329404566419e-05,
+  "final_hard_bc_w_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 0.0,
+  "note": "total loss is pde_loss only; both essential BCs (w=0, dw/dn=0) are hard-enforced by the envelope, so there is no soft moment term for this clamped (FFFF) case."
+}

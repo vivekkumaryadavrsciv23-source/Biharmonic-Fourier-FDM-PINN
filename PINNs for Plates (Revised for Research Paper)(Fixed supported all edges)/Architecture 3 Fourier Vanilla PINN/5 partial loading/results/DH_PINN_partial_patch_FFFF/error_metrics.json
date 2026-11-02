@@ -1,0 +1,20 @@
+{
+  "model": "DH_PINN",
+  "loading_case": "partial_patch",
+  "bc_type": "FFFF",
+  "center_deflection_pred_m": 3.44996741917543e-05,
+  "center_deflection_anal_m": 3.454991873101589e-05,
+  "center_abs_error_m": 5.024453926158988e-08,
+  "center_pct_error": 0.14542592604272825,
+  "w_max_abs_error_m": 6.346157349094342e-07,
+  "w_rms_error_m": 2.368443887667933e-07,
+  "w_L2_error_m": 2.368443887667933e-07,
+  "w_relative_L2_error": 0.018004802361199248,
+  "Mx_max_abs_error_Nm": 0.733674891482611,
+  "Mx_rms_error_Nm": 0.23671986530187392,
+  "My_max_abs_error_Nm": 0.7400799846910964,
+  "My_rms_error_Nm": 0.23808507235649212,
+  "Mxy_max_abs_error_Nm": 0.14476767784743583,
+  "Mxy_rms_error_Nm": 0.07610805963460333,
+  "boundary_w_max_abs_value_m": 0.0
+}

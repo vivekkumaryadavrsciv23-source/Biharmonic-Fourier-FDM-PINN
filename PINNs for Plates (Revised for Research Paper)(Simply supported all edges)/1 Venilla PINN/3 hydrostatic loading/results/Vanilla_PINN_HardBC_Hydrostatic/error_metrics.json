@@ -1,0 +1,21 @@
+{
+  "model": "Vanilla_PINN_HardBC_Hydrostatic",
+  "loading_case": "hydrostatic",
+  "navier_m_max": 120,
+  "navier_n_terms": 60,
+  "center_deflection_pred_m": 0.00011062908831232398,
+  "center_deflection_anal_m": 0.00011090222762211184,
+  "center_abs_error_m": 2.73139309787856e-07,
+  "center_pct_error": 0.2462883890110401,
+  "w_max_abs_error_m": 1.4862881989202533e-06,
+  "w_rms_error_m": 7.705734844295565e-07,
+  "w_L2_error_m": 7.705734844295565e-07,
+  "w_relative_L2_error": 0.01379277449380416,
+  "Mx_max_abs_error_Nm": 2.81082732214893,
+  "Mx_rms_error_Nm": 0.8393590971548842,
+  "My_max_abs_error_Nm": 5.2515556249686695,
+  "My_rms_error_Nm": 1.1601563621002622,
+  "Mxy_max_abs_error_Nm": 3.6265078534376762,
+  "Mxy_rms_error_Nm": 0.4099854637857995,
+  "boundary_w_max_abs_value_m": 0.0
+}

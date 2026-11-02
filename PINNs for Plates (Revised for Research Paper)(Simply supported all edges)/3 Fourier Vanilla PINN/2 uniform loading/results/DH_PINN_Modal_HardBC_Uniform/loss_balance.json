@@ -1,0 +1,19 @@
+{
+  "model": "DH_PINN_Modal_HardBC_Uniform",
+  "loading_case": "uniform",
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices": [
+    1,
+    3,
+    5
+  ],
+  "n_terms_trunc_benchmark": 39,
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "final_pde_loss": 2.7301254049493047e-06,
+  "final_moment_loss": 2.5353491587903846e-06,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.5184956022293065,
+  "moment_fraction_of_total": 0.4815043977706936
+}

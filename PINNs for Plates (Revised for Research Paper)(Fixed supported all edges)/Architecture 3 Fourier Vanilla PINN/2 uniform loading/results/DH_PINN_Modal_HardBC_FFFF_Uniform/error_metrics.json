@@ -1,0 +1,39 @@
+{
+  "model": "DH_PINN_Modal_HardBC_FFFF_Uniform",
+  "loading_case": "uniform",
+  "bc_case": "FFFF",
+  "embedding_type": "deterministic_harmonic_modal_full",
+  "harmonic_indices": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "use_product_terms": true,
+  "center_deflection_pred_m": 6.90926237084012e-05,
+  "center_deflection_anal_m": 6.932558952074242e-05,
+  "center_abs_error_m": 2.3296581234121558e-07,
+  "center_pct_error": 0.33604591601995903,
+  "peak_deflection_anal_m": 6.932558952074242e-05,
+  "peak_deflection_anal_xy_nd": [
+    0.5,
+    0.5
+  ],
+  "peak_deflection_pred_m": 6.90926237084012e-05,
+  "peak_deflection_pred_xy_nd": [
+    0.5,
+    0.5
+  ],
+  "w_max_abs_error_m": 2.3296581234121558e-07,
+  "w_rms_error_m": 1.3914597002985544e-07,
+  "w_L2_error_m": 1.3914597002985544e-07,
+  "w_relative_L2_error": 0.0047880227432906645,
+  "Mx_max_abs_error_Nm": 29.906987141984715,
+  "Mx_rms_error_Nm": 4.438066553986081,
+  "My_max_abs_error_Nm": 29.905192454889576,
+  "My_rms_error_Nm": 4.4383434476409915,
+  "Mxy_max_abs_error_Nm": 1.1801631539912603,
+  "Mxy_rms_error_Nm": 0.22479463702861432,
+  "boundary_w_max_abs_value_m": 0.0
+}

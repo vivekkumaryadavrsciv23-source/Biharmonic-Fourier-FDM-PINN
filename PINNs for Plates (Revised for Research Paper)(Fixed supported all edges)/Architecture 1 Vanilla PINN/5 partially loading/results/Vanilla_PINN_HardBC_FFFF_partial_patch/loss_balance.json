@@ -1,0 +1,9 @@
+{
+  "model": "Vanilla_PINN_HardBC_FFFF",
+  "loading_case": "partial_patch",
+  "bc_case": "FFFF",
+  "final_pde_loss": 0.014032467919286591,
+  "final_hard_w_bc_residual_diagnostic": 0.0,
+  "final_hard_slope_bc_residual_diagnostic": 0.0,
+  "note": "Total training loss = pde_loss only. Both essential clamped BCs (w=0 and dw/dn=0) are hard-enforced via the squared envelope, so there is no soft/natural boundary loss term to balance against the PDE term here (unlike the SS-SS-SS-SS patch script, which needed a soft moment-BC loss)."
+}

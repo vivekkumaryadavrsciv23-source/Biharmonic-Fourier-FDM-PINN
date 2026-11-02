@@ -1,0 +1,25 @@
+{
+  "model": "DH_PINN_Modal_HardBC_Triangular",
+  "loading_case": "triangular",
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices_x": [
+    1,
+    3,
+    5
+  ],
+  "harmonic_indices_y": [
+    1,
+    3,
+    5
+  ],
+  "m_terms_trunc_benchmark": 99,
+  "n_terms_trunc_benchmark": 99,
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "final_pde_loss": 1.0333048595355793e-05,
+  "final_moment_loss": 7.719282659449789e-07,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.9304880797514278,
+  "moment_fraction_of_total": 0.0695119202485722
+}

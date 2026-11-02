@@ -1,0 +1,23 @@
+{
+  "model": "DH_FDM_PINN_Modal_HardBC",
+  "loading_case": "sinusoidal",
+  "embedding_type": "deterministic_harmonic_modal",
+  "derivative_method": "FDM",
+  "n_harmonics": 2,
+  "use_product_terms": true,
+  "center_deflection_pred_m": 0.00014028428544600176,
+  "center_deflection_anal_m": 0.00014013065777644117,
+  "center_abs_error_m": 1.5362766956058334e-07,
+  "center_pct_error": 0.1096317336964726,
+  "w_max_abs_error_m": 1.611756112162839e-07,
+  "w_rms_error_m": 8.629013772787248e-08,
+  "w_L2_error_m": 8.629013772787248e-08,
+  "w_relative_L2_error": 0.0012561982064317005,
+  "Mx_max_abs_error_Nm": 0.21120240834143708,
+  "Mx_rms_error_Nm": 0.04919444543369993,
+  "My_max_abs_error_Nm": 0.3436831796700012,
+  "My_rms_error_Nm": 0.06098595256015662,
+  "Mxy_max_abs_error_Nm": 0.18447093928378422,
+  "Mxy_rms_error_Nm": 0.022262046098786247,
+  "boundary_w_max_abs_value_m": 0.0
+}

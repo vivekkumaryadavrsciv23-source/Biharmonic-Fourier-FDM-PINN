@@ -1,0 +1,18 @@
+{
+  "model": "DH_FDM_PINN_HardBC",
+  "loading_case": "sinusoidal",
+  "device": "cuda",
+  "epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "mean_time_per_epoch_s": 0.011998363646523406,
+  "median_time_per_epoch_s": 0.011882200022228062,
+  "total_training_time_s": 192.49523910006974,
+  "peak_gpu_memory_mb": 30.055936,
+  "n_trainable_params": 8834,
+  "ghost_points_per_side": 3,
+  "forward_pass_points": 3249,
+  "dh_k_modes_per_axis": 1,
+  "dh_embedding_dim": 6,
+  "dh_freq_decay_power": 2
+}

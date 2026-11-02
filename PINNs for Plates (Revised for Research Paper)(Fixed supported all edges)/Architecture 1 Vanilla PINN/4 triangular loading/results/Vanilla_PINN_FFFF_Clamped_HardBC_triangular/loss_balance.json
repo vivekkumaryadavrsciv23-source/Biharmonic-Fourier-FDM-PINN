@@ -1,0 +1,11 @@
+{
+  "model": "Vanilla_PINN_FFFF_Clamped_HardBC_triangular",
+  "loading_case": "triangular",
+  "bc_case": "FFFF",
+  "embedding_type": "none",
+  "grad_clip_norm": 1.0,
+  "final_pde_loss": 0.0003635941285180785,
+  "final_hard_bc_w_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 0.0,
+  "note": "total_loss == pde_loss for FFFF: both essential BCs are hard-enforced, no soft moment term."
+}

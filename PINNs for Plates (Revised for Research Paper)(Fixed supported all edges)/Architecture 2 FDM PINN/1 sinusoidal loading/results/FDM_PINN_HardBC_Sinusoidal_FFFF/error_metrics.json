@@ -1,0 +1,22 @@
+{
+  "model": "FDM_PINN_HardBC_Sinusoidal_FFFF",
+  "loading_case": "sinusoidal",
+  "bc_case": "FFFF",
+  "ritz_m_terms": 18,
+  "ritz_n_terms": 18,
+  "center_deflection_pred_m": 4.985369683472109e-05,
+  "center_deflection_anal_m": 4.98660240823347e-05,
+  "center_abs_error_m": 1.2327247613609432e-08,
+  "center_pct_error": 0.024720734890064003,
+  "w_max_abs_error_m": 1.2991253955836081e-08,
+  "w_rms_error_m": 5.324130956915579e-09,
+  "w_L2_error_m": 5.324130956915579e-09,
+  "w_relative_L2_error": 0.00026370074206297835,
+  "Mx_max_abs_error_Nm": 1.2974072029117636,
+  "Mx_rms_error_Nm": 0.17546163258275035,
+  "My_max_abs_error_Nm": 1.2961748348313122,
+  "My_rms_error_Nm": 0.17547349915045857,
+  "Mxy_max_abs_error_Nm": 0.022677565728742695,
+  "Mxy_rms_error_Nm": 0.002639458994642075,
+  "boundary_w_max_abs_value_m": 0.0
+}

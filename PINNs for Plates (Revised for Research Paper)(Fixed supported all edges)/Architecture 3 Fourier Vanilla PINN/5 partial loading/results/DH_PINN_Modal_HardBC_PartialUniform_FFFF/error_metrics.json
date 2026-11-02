@@ -1,0 +1,33 @@
+{
+  "model": "DH_PINN_Modal_HardBC_PartialUniform_FFFF",
+  "loading_case": "partial_uniform",
+  "bc_case": "FFFF",
+  "patch_u_frac": 0.4,
+  "patch_v_frac": 0.4,
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices": [
+    1,
+    3,
+    5
+  ],
+  "use_product_terms": true,
+  "reference_solution_method": "rayleigh_ritz_clamped_beam_functions",
+  "rr_m_terms": 8,
+  "rr_n_terms": 8,
+  "reference_solution_caveat": "Approximate, mode-count-converged Rayleigh-Ritz solution, NOT a verified closed-form reference -- see module docstring.",
+  "center_deflection_pred_m": 3.450014615113636e-05,
+  "center_deflection_anal_m": 3.4525184098671284e-05,
+  "center_abs_error_m": 2.503794753492617e-08,
+  "center_pct_error": 0.07252082266489569,
+  "w_max_abs_error_m": 6.252351123959606e-07,
+  "w_rms_error_m": 2.361545073375823e-07,
+  "w_L2_error_m": 2.361545073375823e-07,
+  "w_relative_L2_error": 0.017960232903503126,
+  "Mx_max_abs_error_Nm": 1.0132364370459754,
+  "Mx_rms_error_Nm": 0.24924558359907564,
+  "My_max_abs_error_Nm": 1.0137048436575213,
+  "My_rms_error_Nm": 0.24928645898082563,
+  "Mxy_max_abs_error_Nm": 0.16237188462446506,
+  "Mxy_rms_error_Nm": 0.07672035006396735,
+  "boundary_w_max_abs_value_m": 0.0
+}

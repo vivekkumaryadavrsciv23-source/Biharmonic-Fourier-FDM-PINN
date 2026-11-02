@@ -1,0 +1,14 @@
+{
+  "model": "Fourier_Vanilla_PINN_HardBC",
+  "loading_case": "sinusoidal",
+  "device": "cuda",
+  "ff_num_harmonics": 1,
+  "epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "mean_time_per_epoch_s": 0.27476302274016196,
+  "median_time_per_epoch_s": 0.2746402000193484,
+  "total_training_time_s": 4144.40584589995,
+  "peak_gpu_memory_mb": 725.622272,
+  "n_trainable_params": 8706
+}

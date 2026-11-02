@@ -1,0 +1,11 @@
+{
+  "model": "FDM_PINN",
+  "loading_case": "partial_patch",
+  "bc_type": "FFFF",
+  "derivative_method": "finite_difference",
+  "fd_step_h": 0.02,
+  "final_pde_loss": 0.010834753405944732,
+  "pde_fraction_of_total": 1.0,
+  "final_hard_bc_w_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 3.7239149114974433e-11
+}

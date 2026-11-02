@@ -1,0 +1,22 @@
+{
+  "model": "DH_FDM_PINN_HardBC_FFFF",
+  "loading_case": "sinusoidal",
+  "bc_case": "FFFF",
+  "comparison_basis": "numerical reference (solve_reference_clamped_biharmonic(), computed at startup in this script), NOT a closed-form analytical solution -- see reference_validation.json / the printed 'Reference solution validation' block for checks performed",
+  "reference_grid_convergence_pct_diff_vs_101x101": 0.24105876803741055,
+  "center_deflection_pred_m": 4.986433055095368e-05,
+  "center_deflection_ref_m": 5.002864592299491e-05,
+  "center_abs_error_m": 1.6431537204123327e-07,
+  "center_pct_error": 0.3284425732692241,
+  "w_max_abs_error_m": 1.6431537204123327e-07,
+  "w_rms_error_m": 8.622748930526174e-08,
+  "w_L2_error_m": 8.622748930526174e-08,
+  "w_relative_L2_error": 0.004253233887792001,
+  "Mx_max_abs_error_Nm": 0.10816647324951845,
+  "Mx_rms_error_Nm": 0.02067169121126423,
+  "My_max_abs_error_Nm": 0.10517583980375722,
+  "My_rms_error_Nm": 0.020600224540427835,
+  "Mxy_max_abs_error_Nm": 0.0386834463077599,
+  "Mxy_rms_error_Nm": 0.011333965167545661,
+  "boundary_w_max_abs_value_m": 0.0
+}

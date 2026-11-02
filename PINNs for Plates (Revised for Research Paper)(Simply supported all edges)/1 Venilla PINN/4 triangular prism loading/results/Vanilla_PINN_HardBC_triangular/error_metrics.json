@@ -1,0 +1,19 @@
+{
+  "model": "Vanilla_PINN_HardBC",
+  "loading_case": "triangular",
+  "center_deflection_pred_m": 0.00014558934695546867,
+  "center_deflection_anal_m": 0.00014345837568196262,
+  "center_abs_error_m": 2.1309712735060487e-06,
+  "center_pct_error": 1.4854282737943902,
+  "w_max_abs_error_m": 2.43683587124909e-06,
+  "w_rms_error_m": 1.2049124852666008e-06,
+  "w_L2_error_m": 1.2049124852666008e-06,
+  "w_relative_L2_error": 0.01699451934204695,
+  "Mx_max_abs_error_Nm": 2.054896318073412,
+  "Mx_rms_error_Nm": 0.5441867279073132,
+  "My_max_abs_error_Nm": 1.1447794518672418,
+  "My_rms_error_Nm": 0.37700024772355883,
+  "Mxy_max_abs_error_Nm": 0.8505332003131514,
+  "Mxy_rms_error_Nm": 0.19324605627363478,
+  "boundary_w_max_abs_value_m": 0.0
+}

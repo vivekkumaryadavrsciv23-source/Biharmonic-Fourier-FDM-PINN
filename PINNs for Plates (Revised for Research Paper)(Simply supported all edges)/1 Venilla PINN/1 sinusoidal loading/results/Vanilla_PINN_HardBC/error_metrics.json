@@ -1,0 +1,20 @@
+{
+  "model": "Vanilla_PINN_HardBC",
+  "loading_case": "sinusoidal",
+  "embedding_type": "none",
+  "center_deflection_pred_m": 0.00013994761786461266,
+  "center_deflection_anal_m": 0.00014013065777644117,
+  "center_abs_error_m": 1.830399118285162e-07,
+  "center_pct_error": 0.1306208896275437,
+  "w_max_abs_error_m": 2.0867116694821275e-07,
+  "w_rms_error_m": 1.0397433175777611e-07,
+  "w_L2_error_m": 1.0397433175777611e-07,
+  "w_relative_L2_error": 0.0015136419121378226,
+  "Mx_max_abs_error_Nm": 0.15408105201233752,
+  "Mx_rms_error_Nm": 0.04261934127756379,
+  "My_max_abs_error_Nm": 0.1058394823024068,
+  "My_rms_error_Nm": 0.03589276098171569,
+  "Mxy_max_abs_error_Nm": 0.09710828689970086,
+  "Mxy_rms_error_Nm": 0.01652777037186625,
+  "boundary_w_max_abs_value_m": 0.0
+}

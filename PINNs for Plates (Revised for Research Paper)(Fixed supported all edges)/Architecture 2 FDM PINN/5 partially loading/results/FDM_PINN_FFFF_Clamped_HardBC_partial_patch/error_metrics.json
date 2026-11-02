@@ -1,0 +1,22 @@
+{
+  "model": "FDM_PINN_FFFF_Clamped_HardBC_partial_patch",
+  "loading_case": "partial_patch",
+  "bc_case": "FFFF",
+  "reference_type": "finite_difference_biharmonic_solve",
+  "reference_grid": "51x51",
+  "center_deflection_pred_m": 3.685459769065242e-05,
+  "center_deflection_ref_m": 3.712564815852544e-05,
+  "center_abs_error_m": 2.710504678730223e-07,
+  "center_pct_error": 0.7300895238667474,
+  "w_max_abs_error_m": 2.710867897726661e-07,
+  "w_rms_error_m": 1.179500242254767e-07,
+  "w_L2_error_m": 1.179500242254767e-07,
+  "w_relative_L2_error": 0.008285596709103669,
+  "Mx_max_abs_error_Nm": 10.872966455280938,
+  "Mx_rms_error_Nm": 1.457871503279214,
+  "My_max_abs_error_Nm": 10.886181511822492,
+  "My_rms_error_Nm": 1.458099744112835,
+  "Mxy_max_abs_error_Nm": 0.4564183846361731,
+  "Mxy_rms_error_Nm": 0.08738889567930179,
+  "boundary_w_max_abs_value_m": 0.0
+}

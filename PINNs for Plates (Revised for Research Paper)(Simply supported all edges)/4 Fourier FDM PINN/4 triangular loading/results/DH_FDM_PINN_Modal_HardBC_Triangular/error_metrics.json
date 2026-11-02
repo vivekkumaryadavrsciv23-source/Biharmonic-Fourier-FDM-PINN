@@ -1,0 +1,32 @@
+{
+  "model": "DH_FDM_PINN_Modal_HardBC_Triangular",
+  "loading_case": "triangular",
+  "residual_backbone": "fdm",
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices_x": [
+    1,
+    3,
+    5
+  ],
+  "harmonic_indices_y": [
+    1,
+    3,
+    5
+  ],
+  "use_product_terms": true,
+  "center_deflection_pred_m": 0.00014383674098403116,
+  "center_deflection_anal_m": 0.0001434583757633054,
+  "center_abs_error_m": 3.783652207257481e-07,
+  "center_pct_error": 0.2637456465769693,
+  "w_max_abs_error_m": 4.2681502759169346e-07,
+  "w_rms_error_m": 2.3619304277706863e-07,
+  "w_L2_error_m": 2.3619304277706863e-07,
+  "w_relative_L2_error": 0.003331351682975834,
+  "Mx_max_abs_error_Nm": 1.1006569908259007,
+  "Mx_rms_error_Nm": 0.24836173551454518,
+  "My_max_abs_error_Nm": 1.0537313666867638,
+  "My_rms_error_Nm": 0.22035396632444654,
+  "Mxy_max_abs_error_Nm": 0.7562648633201725,
+  "Mxy_rms_error_Nm": 0.09507368525886753,
+  "boundary_w_max_abs_value_m": 0.0
+}

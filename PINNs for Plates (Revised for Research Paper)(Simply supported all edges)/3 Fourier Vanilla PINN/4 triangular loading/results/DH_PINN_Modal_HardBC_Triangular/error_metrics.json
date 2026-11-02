@@ -1,0 +1,31 @@
+{
+  "model": "DH_PINN_Modal_HardBC_Triangular",
+  "loading_case": "triangular",
+  "embedding_type": "deterministic_harmonic_modal_odd",
+  "harmonic_indices_x": [
+    1,
+    3,
+    5
+  ],
+  "harmonic_indices_y": [
+    1,
+    3,
+    5
+  ],
+  "use_product_terms": true,
+  "center_deflection_pred_m": 0.00014384488556889517,
+  "center_deflection_anal_m": 0.0001434583757633054,
+  "center_abs_error_m": 3.8650980558975804e-07,
+  "center_pct_error": 0.26942296225873047,
+  "w_max_abs_error_m": 4.4934535028136704e-07,
+  "w_rms_error_m": 2.4466762268264083e-07,
+  "w_L2_error_m": 2.4466762268264083e-07,
+  "w_relative_L2_error": 0.00345088020802891,
+  "Mx_max_abs_error_Nm": 1.0366018996988655,
+  "Mx_rms_error_Nm": 0.24717600753215,
+  "My_max_abs_error_Nm": 1.0516844005438817,
+  "My_rms_error_Nm": 0.2238493093411704,
+  "Mxy_max_abs_error_Nm": 0.7584802151436705,
+  "Mxy_rms_error_Nm": 0.09556841247592343,
+  "boundary_w_max_abs_value_m": 0.0
+}

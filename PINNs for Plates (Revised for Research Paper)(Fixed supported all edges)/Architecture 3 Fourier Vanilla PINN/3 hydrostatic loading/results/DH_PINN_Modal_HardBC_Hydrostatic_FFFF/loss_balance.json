@@ -1,0 +1,15 @@
+{
+  "model": "DH_PINN_Modal_HardBC_Hydrostatic_FFFF",
+  "loading_case": "hydrostatic",
+  "bc_case": "FFFF",
+  "embedding_type": "deterministic_harmonic_modal",
+  "n_harmonics": 6,
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "final_total_loss": 1.1295718966753751e-05,
+  "final_pde_loss": 1.1295718966753751e-05,
+  "note": "total == pde_loss exactly for the clamped (FFFF) case -- both essential BCs are hard-enforced by the envelope, so there is no soft natural-BC term to balance against (unlike SS-SS-SS-SS).",
+  "final_hard_bc_value_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 0.0
+}

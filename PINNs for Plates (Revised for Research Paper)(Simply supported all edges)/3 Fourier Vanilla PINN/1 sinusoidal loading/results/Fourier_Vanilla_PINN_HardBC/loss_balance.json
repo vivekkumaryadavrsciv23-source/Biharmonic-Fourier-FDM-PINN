@@ -1,0 +1,10 @@
+{
+  "model": "Fourier_Vanilla_PINN_HardBC",
+  "loading_case": "sinusoidal",
+  "ff_num_harmonics": 1,
+  "final_pde_loss": 3.4611049061775246e-06,
+  "final_moment_loss": 6.105408647896322e-07,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.8500505940022853,
+  "moment_fraction_of_total": 0.1499494059977147
+}

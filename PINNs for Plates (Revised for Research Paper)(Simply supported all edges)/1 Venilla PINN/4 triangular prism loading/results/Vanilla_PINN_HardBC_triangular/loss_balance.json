@@ -1,0 +1,9 @@
+{
+  "model": "Vanilla_PINN_HardBC",
+  "loading_case": "triangular",
+  "final_pde_loss": 0.0003384054083536005,
+  "final_moment_loss": 7.517299229358021e-07,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.9977835350104798,
+  "moment_fraction_of_total": 0.002216464989520194
+}

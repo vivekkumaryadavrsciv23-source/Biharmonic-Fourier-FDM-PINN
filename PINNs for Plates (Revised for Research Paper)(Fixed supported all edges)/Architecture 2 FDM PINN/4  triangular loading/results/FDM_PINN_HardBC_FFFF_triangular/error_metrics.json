@@ -1,0 +1,23 @@
+{
+  "model": "FDM_PINN_HardBC_FFFF",
+  "loading_case": "triangular",
+  "bc_case": "FFFF",
+  "fd_reference_resolution": 101,
+  "center_deflection_pred_m": 4.8675660671894875e-05,
+  "center_deflection_anal_m": 4.87230188473895e-05,
+  "center_abs_error_m": 4.7358175494622526e-08,
+  "center_pct_error": 0.09719877096071994,
+  "w_max_abs_error_m": 4.737687266677642e-08,
+  "w_rms_error_m": 2.3562325559576978e-08,
+  "w_L2_error_m": 2.3562325559576978e-08,
+  "w_relative_L2_error": 0.0011742586677644165,
+  "Mx_max_abs_error_Nm": 15.838694654787437,
+  "Mx_rms_error_Nm": 1.8025256228432023,
+  "My_max_abs_error_Nm": 20.29858663002689,
+  "My_rms_error_Nm": 2.1463052164195684,
+  "Mxy_max_abs_error_Nm": 0.3778399689941644,
+  "Mxy_rms_error_Nm": 0.05440661771185516,
+  "boundary_w_max_abs_value_m": 0.0,
+  "boundary_slope_x_max_abs_nd": 1.0431895749588363e-05,
+  "boundary_slope_y_max_abs_nd": 1.7386138858078653e-05
+}

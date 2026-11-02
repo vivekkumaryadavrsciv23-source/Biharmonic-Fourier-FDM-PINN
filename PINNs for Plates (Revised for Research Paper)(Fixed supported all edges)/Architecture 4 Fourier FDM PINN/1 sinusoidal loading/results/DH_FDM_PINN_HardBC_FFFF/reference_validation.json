@@ -1,0 +1,9 @@
+{
+  "description": "Verified 2nd-order-accurate direct FD biharmonic solve, NOT a closed-form solution.",
+  "center_w_nd_at_51x51": 0.0009162755663552183,
+  "center_w_nd_at_101x101_finer_grid": 0.000914072115374922,
+  "pct_diff_51_vs_101_grid": 0.24105876803741055,
+  "linear_solve_relative_residual_51x51": 2.9015858797796586e-11,
+  "uniform_load_clamped_center_coeff_crosscheck": 0.0012696994417718394,
+  "uniform_load_crosscheck_note": "Compare to the commonly tabulated ~0.00126 clamped-square-plate coefficient (Timoshenko & Woinowsky-Krieger) -- recalled from memory, not independently re-verified here."
+}

@@ -1,0 +1,20 @@
+{
+  "model": "DH_PINN_Modal_HardBC_FFFF_Sinusoidal",
+  "loading_case": "sinusoidal",
+  "bc_case": "FFFF",
+  "embedding_type": "deterministic_harmonic_modal_full",
+  "harmonic_indices": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "final_pde_loss": 4.980046585740559e-06,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "final_slope_bc_residual_diagnostic": 0.0,
+  "note": "total_loss == pde_loss for FFFF; both essential BCs are hard-enforced by the squared envelope, so there is no moment/soft-BC term to balance."
+}

@@ -1,0 +1,9 @@
+{
+  "model": "FDM_PINN_HardBC_FFFF",
+  "loading_case": "triangular",
+  "bc_case": "FFFF",
+  "final_pde_loss": 8.193327855069628e-05,
+  "final_hard_w_bc_residual_diagnostic": 0.0,
+  "final_hard_slope_bc_residual_diagnostic": 2.982963969767619e-10,
+  "note": "Total training loss = pde_loss only. Both essential clamped BCs (w=0 and dw/dn=0) are hard-enforced via the squared envelope, so there is no soft/natural boundary loss term to balance against the PDE term here (unlike the SS-SS-SS-SS triangular script, which needed MOMENT_LOSS_WEIGHT to rebalance a soft moment-BC loss)."
+}

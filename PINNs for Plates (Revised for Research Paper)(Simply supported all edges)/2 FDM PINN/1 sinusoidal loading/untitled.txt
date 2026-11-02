@@ -1,0 +1,9 @@
+
+
+after running the code for both activation function 
+
+
+i found SiLU is more accurate 
+
+
+now run the how much number of epochs is suficient

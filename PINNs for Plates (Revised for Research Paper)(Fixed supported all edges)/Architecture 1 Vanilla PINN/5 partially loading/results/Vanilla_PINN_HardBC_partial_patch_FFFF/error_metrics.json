@@ -1,0 +1,21 @@
+{
+  "model": "Vanilla_PINN_HardBC",
+  "loading_case": "partial_patch",
+  "bc_case": "FFFF",
+  "reference_solution": "FDM biharmonic solve, 151x151 grid, bilinearly interpolated to 51x51",
+  "center_deflection_pred_m": 3.3357277958446495e-05,
+  "center_deflection_anal_m": 3.454623039833833e-05,
+  "center_abs_error_m": 1.1889524398918367e-06,
+  "center_pct_error": 3.4416271361086768,
+  "w_max_abs_error_m": 1.3879047657499428e-06,
+  "w_rms_error_m": 5.189002827748697e-07,
+  "w_L2_error_m": 5.189002827748697e-07,
+  "w_relative_L2_error": 0.0394489735975781,
+  "Mx_max_abs_error_Nm": 9.06227325685935,
+  "Mx_rms_error_Nm": 1.08188105602745,
+  "My_max_abs_error_Nm": 9.083240835487796,
+  "My_rms_error_Nm": 1.0830890928802908,
+  "Mxy_max_abs_error_Nm": 0.24292777722417513,
+  "Mxy_rms_error_Nm": 0.09381982094115245,
+  "boundary_w_max_abs_value_m": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "model": "FDM_PINN_HardBC",
+  "loading_case": "triangular",
+  "center_deflection_pred_m": 0.00014408202622230782,
+  "center_deflection_anal_m": 0.00014345837568196262,
+  "center_abs_error_m": 6.236505403451958e-07,
+  "center_pct_error": 0.43472577838730464,
+  "w_max_abs_error_m": 8.92882106325976e-07,
+  "w_rms_error_m": 4.1218792277607167e-07,
+  "w_L2_error_m": 4.1218792277607167e-07,
+  "w_relative_L2_error": 0.0057708994068837284,
+  "Mx_max_abs_error_Nm": 0.8620454582074184,
+  "Mx_rms_error_Nm": 0.3009172065035328,
+  "My_max_abs_error_Nm": 1.3450108818105413,
+  "My_rms_error_Nm": 0.2303576985503384,
+  "Mxy_max_abs_error_Nm": 0.3837308011105893,
+  "Mxy_rms_error_Nm": 0.09066749328740703,
+  "boundary_w_max_abs_value_m": 0.0
+}

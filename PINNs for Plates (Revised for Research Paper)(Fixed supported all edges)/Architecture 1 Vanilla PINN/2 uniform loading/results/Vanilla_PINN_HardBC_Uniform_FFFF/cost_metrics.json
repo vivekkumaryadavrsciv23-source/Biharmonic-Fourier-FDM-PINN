@@ -1,0 +1,14 @@
+{
+  "model": "Vanilla_PINN_HardBC_Uniform_FFFF",
+  "loading_case": "uniform",
+  "bc_case": "FFFF",
+  "device": "cuda",
+  "epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "mean_time_per_epoch_s": 0.5548254049131414,
+  "median_time_per_epoch_s": 0.5790779499802738,
+  "total_training_time_s": 8344.96711930004,
+  "peak_gpu_memory_mb": 1116.948992,
+  "n_trainable_params": 8578
+}

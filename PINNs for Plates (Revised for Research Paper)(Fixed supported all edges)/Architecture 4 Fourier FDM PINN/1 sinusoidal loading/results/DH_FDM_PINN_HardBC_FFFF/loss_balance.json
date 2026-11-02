@@ -1,0 +1,8 @@
+{
+  "model": "DH_FDM_PINN_HardBC_FFFF",
+  "loading_case": "sinusoidal",
+  "bc_case": "FFFF",
+  "final_pde_loss": 7.612755419180565e-06,
+  "final_hard_bc_w_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 9.375988059537117e-15
+}

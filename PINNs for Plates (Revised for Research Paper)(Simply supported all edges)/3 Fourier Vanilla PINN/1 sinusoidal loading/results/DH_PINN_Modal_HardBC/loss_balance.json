@@ -1,0 +1,14 @@
+{
+  "model": "DH_PINN_Modal_HardBC",
+  "loading_case": "sinusoidal",
+  "embedding_type": "deterministic_harmonic_modal",
+  "n_harmonics": 2,
+  "include_raw_coords": true,
+  "use_product_terms": true,
+  "grad_clip_norm": 1.0,
+  "final_pde_loss": 3.4711983302149196e-07,
+  "final_moment_loss": 3.234847201907118e-08,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_total": 0.914753164916861,
+  "moment_fraction_of_total": 0.08524683508313904
+}

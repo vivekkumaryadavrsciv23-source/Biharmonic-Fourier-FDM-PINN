@@ -1,0 +1,9 @@
+{
+  "model": "FDM_PINN_FFFF_Clamped_HardBC_partial_patch",
+  "loading_case": "partial_patch",
+  "bc_case": "FFFF",
+  "final_pde_loss": 0.0028397197801970607,
+  "final_hard_bc_w_residual_diagnostic": 0.0,
+  "final_hard_bc_slope_residual_diagnostic": 2.296020698382383e-14,
+  "note": "total_loss == pde_loss for FFFF: both essential BCs are hard-enforced, no soft moment term."
+}

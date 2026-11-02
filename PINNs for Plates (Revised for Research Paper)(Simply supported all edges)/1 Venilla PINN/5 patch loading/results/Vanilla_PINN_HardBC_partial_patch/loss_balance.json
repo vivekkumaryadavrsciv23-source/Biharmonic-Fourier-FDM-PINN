@@ -1,0 +1,11 @@
+{
+  "model": "Vanilla_PINN_HardBC",
+  "loading_case": "partial_patch",
+  "moment_weight": 50.0,
+  "final_pde_loss": 0.00757367040552007,
+  "final_moment_loss_unweighted": 5.535795751743678e-07,
+  "final_moment_loss_weighted": 2.767897875871839e-05,
+  "final_hard_bc_residual_diagnostic": 0.0,
+  "pde_fraction_of_weighted_total": 0.9963586756298869,
+  "moment_fraction_of_weighted_total": 0.0036413243701130774
+}

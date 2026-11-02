@@ -1,0 +1,19 @@
+{
+  "model": "FDM_PINN_HardBC_FFFF",
+  "loading_case": "triangular",
+  "bc_case": "FFFF",
+  "device": "cuda",
+  "epochs_run": 15000,
+  "epochs_to_early_stop": 15000,
+  "epochs_to_convergence": 15000,
+  "mean_time_per_epoch_s": 0.031042484513445136,
+  "median_time_per_epoch_s": 0.030578200006857514,
+  "total_training_time_s": 516.7734743999317,
+  "lbfgs_steps_requested": 300,
+  "lbfgs_time_s": 36.071651999955066,
+  "peak_gpu_memory_mb": 89.040384,
+  "n_trainable_params": 28322,
+  "grid_nx": 81,
+  "grid_ny": 81,
+  "fd_reference_resolution": 101
+}
